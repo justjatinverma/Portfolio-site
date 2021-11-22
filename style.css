@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #7fffd4;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+}
+
+li{
+    margin: 15px 5px;
+}
