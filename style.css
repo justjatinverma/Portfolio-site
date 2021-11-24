@@ -1,23 +1,5 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-nav{
-    background-color: #54a88b;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.links{
-    display: flex;
-    justify-content:flex-end;
-    list-style-type: none;
-}
-
-li{
-    margin: 15px 5px;
+.btn-primary{
+    color: #fff;
+    background-color: #43bfa6;
+    border-color: #43bfa6;
 }
