@@ -24,63 +24,64 @@
     <title>Jatin's Portfolio</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div class="container">
         <a href="" class="navbar-brand">Portfolio</a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
+        <!-- nav-button on small srceen -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="" class="nav-link"> About </a>
+              <a href="#proj" class="nav-link"> Projects </a>
             </li>
 
             <li class="nav-item">
-              <a href="" class="nav-link"> Projects </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="" class="nav-link"> Contact </a>
+              <a href="#contact" class="nav-link"> Contact </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+<!-- Hero Section -->
     <section class="bg-dark text-light p-5 text-center text-sm-start">
       <div class="container">
         <div class="d-sm-flex justify-content-between align-items-center">
-          <div class="m-auto">
-            <h3>Hey,I'm</h3>
-            <span class="text-warning"><h1>Jatin Verma</h1></span>
-            <p class="lead my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              et excepturi rerum est dolores ut, voluptatum dolorem nam
-              dignissimos ipsam, cumque accusamus alias, cupiditate deserunt
-              veritatis error nihil necessitatibus ducimus?
-            </p>
-            <a href="#">
-              <button class="btn btn-primary btn-lg">Contact</button>
-            </a>
+          <div class="d-flex-col">
+            <div class="m-auto">
+              <h3>Hey,I'm</h3>
+              <span class="text-warning"><h1>Jatin Verma</h1></span>
+              <h2 class="lead">FullStack WebDeveloper </h2>
+              <a href="#contact">
+                <button class="btn btn-primary btn-lg">Contact</button>
+              </a>
+            </div>
+            <div class="d-flex-row ">
+              <a href="https://twitter.com/justjatinverma">
+                <i class="bi bi-twitter h1 p-2"></i> 
+              </a>
+              <a href="https://www.linkedin.com/in/justjatinverma/">
+                <i class="bi bi-linkedin h1 p-2"></i>
+              </a>
+              <a href="https://github.com/justjatinverma">
+                <i class="bi bi-github h1 p-2"></i>
+              </a>
+          </div>
           </div>
           <img
-            class="img-fluid my-5 mx-sm-5 w-25"
-            src="./assets/undraw_male_avatar_323b.svg"
-            alt=""
+          class="img-fluid my-5 mx-sm-5 w-50"
+          src="./assets/undraw_male_avatar_323b.svg"
+          alt=""
           />
         </div>
       </div>
     </section>
-
-    <section class="p-5">
+<!-- projects section -->
+    <section class="p-5" id="proj">
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
@@ -91,8 +92,8 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">Visit</a>
-                <a href="#" class="card-link">Source Code</a>
+                <a href="https://pound-convert.netlify.app/" class="card-link">Visit</a>
+                <a href="https://github.com/justjatinverma/weight-converter" class="card-link">Source Code</a>
               </div>
             </div>
           </div>
@@ -104,8 +105,8 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">Visit</a>
-                <a href="#" class="card-link">Source Code</a>
+                <a href="https://playalone.netlify.app/" class="card-link">Visit</a>
+                <a href="https://github.com/justjatinverma/rock-paper-scissors" class="card-link">Source Code</a>
               </div>
             </div>
           </div>
@@ -117,12 +118,22 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="card-link">Visit</a>
-                <a href="#" class="card-link">Source Code</a>
+                <a href="https://memorypokemon.netlify.app/" class="card-link">Visit</a>
+                <a href="https://github.com/justjatinverma/memory-game" class="card-link">Source Code</a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+<!-- contact Section -->
+    <section class="bg-dark p-5" id="contact">
+      <div class="conatiner">
+        <div class="row text-center g-5">
+          <span class="text-warning h1">Contact Me </span>
+          <span class="text-light h1">vermajatin1727@gmail.com</span>
+        </div>
+
       </div>
     </section>
   </body>
